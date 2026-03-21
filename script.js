@@ -15,11 +15,9 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
 
 // ── Events data ───────────────────────────────────────────────
 const EVENTS = [
-  { year: 2026, month: 3, day: 28, title: 'Spring Mixer', location: 'Alumni Center, Room 201' },
-  { year: 2026, month: 4, day: 15, title: 'Mentor Speed Networking', location: 'Virtual (Zoom)' },
-  { year: 2026, month: 5, day:  2, title: 'Annual Reunion 2026', location: 'Grand Ballroom, Campus Hotel' },
-  { year: 2026, month: 5, day: 20, title: 'Officer Elections', location: 'Student Union B110' },
-  { year: 2026, month: 6, day: 12, title: 'Summer Social', location: 'Rooftop Terrace, Alumni Center' },
+  { year: 2026, month: 3, day: 15, title: 'Cap & Gown Drive Closes', location: 'TBD' },
+  { year: 2026, month: 4, day: 19, title: 'Spring Social', location: 'Tap Yard, Raleigh · 1610 Automotive Way, Raleigh, NC 27604 · 2:00 PM EST' },
+  { year: 2026, month: 5, day:  2, title: 'Class of 2026 Graduation', location: 'Talley Student Union · 12:30 PM EST' },
 ];
 
 // ── Calendar state ────────────────────────────────────────────

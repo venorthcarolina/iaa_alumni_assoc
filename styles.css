@@ -516,6 +516,18 @@ main {
 .past-event-info p { font-size: 0.87rem; color: var(--gray); }
 
 /* ── Merch ────────────────────────────────────────────────── */
+.merch-section {
+  margin-bottom: 36px;
+}
+
+.merch-category-title {
+  font-size: 1.2rem;
+  color: var(--navy);
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--gold);
+}
+
 .merch-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -554,6 +566,13 @@ main {
 .merch-info { padding: 16px 18px; }
 .merch-info h3 { font-size: 1rem; color: var(--navy); margin-bottom: 4px; }
 .merch-info p  { font-size: 0.84rem; color: var(--gray); margin-bottom: 10px; }
+
+.merch-price {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--gold);
+  margin-top: 4px;
+}
 
 .merch-badge {
   display: inline-block;
@@ -636,6 +655,16 @@ main {
   font-size: 0.95rem;
   color: var(--gray);
   max-width: 560px;
+}
+
+/* ── Tab last updated ─────────────────────────────────────── */
+.tab-last-updated {
+  margin-top: 36px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  font-size: 0.78rem;
+  color: var(--gray);
+  text-align: right;
 }
 
 /* ── Footer ───────────────────────────────────────────────── */
