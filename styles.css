@@ -283,6 +283,40 @@ main {
 .officer-name { font-weight: 600; font-size: 0.97rem; color: var(--navy); }
 .officer-email { font-size: 0.78rem; color: var(--gray); margin-top: 4px; }
 
+.officer-avatar-link {
+  display: block;
+  position: relative;
+  width: 72px;
+  margin: 0 auto 14px;
+  text-decoration: none;
+}
+.officer-avatar-link .officer-avatar {
+  margin: 0;
+  transition: border-color .18s, transform .15s;
+}
+.officer-avatar-link:hover .officer-avatar {
+  border-color: #0077b5;
+  transform: scale(1.07);
+}
+.officer-avatar-link::after {
+  content: 'in';
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+  background: #0077b5;
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: 800;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  letter-spacing: 0;
+}
+
 /* ── Info Box ─────────────────────────────────────────────── */
 .info-box {
   background: #fce8e8;
