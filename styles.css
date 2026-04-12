@@ -166,7 +166,7 @@ main {
 .btn {
   display: inline-block;
   background: var(--gold);
-  color: var(--navy);
+  color: var(--white);
   font-weight: 700;
   padding: 12px 28px;
   border-radius: 6px;
@@ -175,7 +175,7 @@ main {
   border: none;
   font-size: 0.95rem;
 }
-.btn:hover { background: var(--gold-lt); text-decoration: none; transform: translateY(-1px); }
+.btn:hover { background: var(--gold-lt); color: var(--white); text-decoration: none; transform: translateY(-1px); }
 
 /* ── Card Grid (Home) ─────────────────────────────────────── */
 .card-grid {
