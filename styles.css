@@ -152,8 +152,9 @@ main {
 }
 
 .hero h2 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-bottom: 12px;
+  white-space: nowrap;
 }
 
 .hero p {
@@ -715,7 +716,7 @@ footer a { color: var(--gold-lt); }
 /* ── Responsive ───────────────────────────────────────────── */
 @media (max-width: 600px) {
   .hero { padding: 36px 24px; }
-  .hero h2 { font-size: 1.45rem; }
+  .hero h2 { font-size: 1.45rem; white-space: normal; }
   h1 { font-size: 1.15rem; }
   .tab-btn { padding: 11px 13px; font-size: 0.82rem; }
   main { padding: 0 14px; }
