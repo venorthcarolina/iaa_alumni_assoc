@@ -154,7 +154,6 @@ main {
 .hero h2 {
   font-size: 1.6rem;
   margin-bottom: 12px;
-  white-space: nowrap;
 }
 
 .hero p {
