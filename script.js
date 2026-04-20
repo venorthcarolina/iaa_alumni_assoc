@@ -17,6 +17,7 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
 const EVENTS = [
   { year: 2026, month: 3, day: 15, title: 'Cap & Gown Drive Closes', location: 'TBD' },
   { year: 2026, month: 4, day: 19, title: 'Spring Social', location: 'Tap Yard, Raleigh · 1610 Automotive Way, Raleigh, NC 27604 · 2:00 PM EST' },
+  { year: 2026, month: 4, day: 24, title: 'IAA Alumni Summit', location: 'Talley Student Union' },
   { year: 2026, month: 5, day:  2, title: 'Class of 2026 Graduation', location: 'Talley Student Union · 12:30 PM EST' },
 ];
 
